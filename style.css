@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar {
+    height: 60px;
+    width: 2000px;
+    background-color: #53c0ebd0;
+    color: white;
+    display: flex;
+
+}
+/* Navigation Part 1 */
+.nav-logo {
+    height: 50px;
+    width: 430px;
+}
+
+.logo {
+    background-image: url("images/Web-Logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 430px;
+}
+.border {
+    border: 2px solid transparent;
+}
+.border:hover {
+    border: 2px solid white;
+}
+
+
+/* Navigation Part 2 */
+.navdetails {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.address1 {
+    margin: 0 10px;
+    cursor: pointer;
+    border: 3px transparent;
+}
+
+.address1:hover {
+    border: 3px solid white;
+}
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  
+  .image-container {
+    width: auto;
+    height: auto;
+    border: 20px;
+    padding-bottom: 100%; 
+    position: relative;
+  }
+  
+  .image-container img {
+    border: 1px solid black;
+    border-left: 30px solid white;
+    border-right: 30px solid white;
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 150%;
+}
+
+h2 {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h2 strong {
+    font-weight: bold;
+    color: #FF5733;
+}
+
+/* 
+burger */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.recipe {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.recipe h1 {
+    text-align: center;
+    color: #333;
+}
+
+.recipe ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.recipe ul li {
+    margin-bottom: 10px;
+}
+
+.recipe ul li:last-child {
+    margin-bottom: 0;
+}
+
+ 
